@@ -33,3 +33,6 @@ rich==13.7.1                          # Must stay <14 for Streamlit 1.28.0
 
 # Deep Learning Backend (critical fix!)
 torch==2.1.2                          # ✅ Needed by sentence-transformers ≥2.2
+
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.6.0/en_core_web_sm-3.6.0.tar.gz
+
