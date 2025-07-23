@@ -28,6 +28,12 @@ import random
 from datetime import datetime
 import json
 
+st.set_page_config(
+    page_title="Resume-Job Matching System",
+    page_icon="🎯",
+    layout="wide"
+)
+
 # Download required NLTK data
 try:
     nltk.download('punkt', quiet=True)
@@ -434,12 +440,7 @@ class ABTester:
 
 # Streamlit Application
 def main():
-    st.set_page_config(
-        page_title="Resume-Job Matching System",
-        page_icon="🎯",
-        layout="wide"
-    )
-    
+   
     st.title("🎯 Advanced Resume-Job Matching System")
     st.markdown("Upload your resume and find the best job matches with AI-powered analysis")
     
