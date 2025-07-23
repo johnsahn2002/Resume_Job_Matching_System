@@ -35,5 +35,4 @@ rich==13.7.1
 
 # Optional but recommended
 # These enhance functionality but aren't strictly required
-transformers==4.33.0
 torch==2.0.1
